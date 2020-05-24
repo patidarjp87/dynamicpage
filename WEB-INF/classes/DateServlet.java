@@ -10,7 +10,7 @@ public class DateServlet extends GenericServlet
         res.setContentType("text/html");
         pw=res.getWriter();
         date=new Date();
-        pw.println("<h1 stype='align:center'>Date and time:::"+date+"</h1>");
+        pw.println("<h1 style='align:center'>Date and time:::"+date+"</h1>");
         pw.close();
     }
 
